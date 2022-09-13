@@ -6,7 +6,15 @@ function isNumber(a) {
     return true
   }
 }
-
+function print_Text(msg) {
+  document.write(msg)
+}
+function print_Text_ln(msg) {
+  print_Text(msg + '<br/>')
+}
+function print_Html_Css(name, msg) {
+  document.querySelector(name).innerHTML = msg
+}
 function print_log(a) {
   console.log(a)
 }
