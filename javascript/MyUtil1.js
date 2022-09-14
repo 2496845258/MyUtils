@@ -15,13 +15,15 @@ function print_Text_ln(msg) {
 function print_Html_Css(name, msg) {
   document.querySelector(name).innerHTML = msg
 }
+
 function print_log(a) {
   console.log(a)
 }
-function print(a) {
+function myprint(a) {
   alert(a)
   print_log(a)
 }
+
 
 //定义一个类
 class MyList {
