@@ -94,6 +94,15 @@ function myKeyBoardUp(a, b) {
   return a
 }
 
+//获取外部样式表的方式
+function myGetStyle(a, b) {
+  if ( null != b ) {
+    return document.defaultView.getComputedStyle(a, b)
+  } else {
+    return document.defaultView.getComputedStyle(a)
+  }
+}
+
 //定义一个类
 class MyList {
   arr = []
