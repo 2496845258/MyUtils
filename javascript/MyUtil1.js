@@ -20,8 +20,8 @@ function print_log(a) {
   console.log(a)
 }
 function myPrint(a) {
+  console.log(a)
   alert(a)
-  print_log(a)
 }
 
 function myGetNode(namem) {
