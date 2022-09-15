@@ -36,16 +36,19 @@ function myGetNodes(name) {
 //单击
 function myMouseClickOne(a, b) {
   a.addEventListener('click', b)
+  return a
 }
 
 //双击
 function myMouseClickTwo(a, b) {
   a.addEventListener('dblclick', b)
+  return a
 }
 
 //长按
 function myMouseClickLast(a, b) {
   a.addEventListener('mousedown', b)
+  return a
 }
 
 //移入（true表示子集也触发）
@@ -57,6 +60,7 @@ function myMouseEnter(a, b, c) {
     //子集触发
     a.addEventListener('mouseover', b)
   }
+  return a
 }
 
 //鼠标移出
@@ -68,22 +72,26 @@ function myMouseOut(a, b, c) {
     //子集触发
     a.addEventListener('mouseout', b)
   }
+  return a
 }
 
 //内容改变事件
 function myChange(a, b) {
   a.addEventListener('change', b)
+  return a
 }
 
 
 //键盘按下
 function myKeyBoardDown(a, b) {
   a.addEventListener('keydown', b)
+  return a
 }
 
 //按键释放
 function myKeyBoardUp(a, b) {
   a.addEventListener('keyup', b)
+  return a
 }
 
 //定义一个类
