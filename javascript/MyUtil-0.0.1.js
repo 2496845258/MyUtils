@@ -103,6 +103,16 @@ function myGetStyle(a, b) {
   }
 }
 
+//返回集合中的某个元素的下标
+function myArrayIndex(arr, obj) {
+  for ( var i = 0; i < arr.length; i++ ) {
+    if ( obj == arr[i] ) {
+      return i;
+    }
+  }
+  return -1;
+}
+
 //定义一个类
 class MyList {
   arr = []
