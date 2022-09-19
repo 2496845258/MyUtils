@@ -1,4 +1,3 @@
-
 function isNumber(a) {
   if ( Number.isNaN(a) ) {
     return false
@@ -80,7 +79,6 @@ function myChange(a, b) {
   a.addEventListener('change', b)
   return a
 }
-
 
 //键盘按下
 function myKeyBoardDown(a, b) {
